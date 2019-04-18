@@ -44,7 +44,7 @@ html, body, button, input, select, textarea, blockquote, pre, code, kbd, tt, var
 /*======================================*/
 
 body.single .post-footer span.cat-links:before {
-  background-color: #44465D !important;
+  background-color: #123c63 !important;
 }
 
 body .wrap-detail-page form input[type=submit],
@@ -99,7 +99,7 @@ body .block-footer-callback .mc4wp-form input[type=submit],
 body .block-portfolio.block-grid .gallery-content .post-content-inner .icon-area,
 body table thead tr,
 .thumb-outer .meta .meta-date {
-  background-color: #44465D;
+  background-color: #123c63;
 }
 
 /*======================================*/
@@ -107,7 +107,7 @@ body table thead tr,
 /*======================================*/
 
 body.fixed-nav-active .main-navigation .nav > ul > li.current-menu-item {
-  border: 1px solid #44465D !important;
+  border: 1px solid #123c63 !important;
 }
 
 body .wrap-detail-page .wpcf7 input[type=submit],
@@ -137,7 +137,7 @@ body .main-navigation ul.primary-menu > .current_page_item,
 body .main-navigation ul.primary-menu > .current-menu-item,
 body .contact-form-section input[type=submit],
 body .kt-contact-form-area .form-group input.form-control[type=submit] {
-  border-color: #44465D;
+  border-color: #123c63;
 }
 
 /*======================================*/
@@ -146,7 +146,7 @@ body .kt-contact-form-area .form-group input.form-control[type=submit] {
 
 .main-navigation ul.primary-menu > .current_page_item > a,
 .main-navigation ul.primary-menu > .current-menu-item > a {
-  color: #44465D;
+  color: #123c63;
 }
 
 a,
@@ -176,7 +176,7 @@ article.post-content .post-title .cat,
 .offcanvas-navigation li.current-menu-ancestor > a,
 body .icon-block-outer .icon-outer span,
 body .widget.widget_calendar tfoot a {
-  color: #44465D;
+  color: #123c63;
 }
 
 /*======================================/*
@@ -295,7 +295,7 @@ body .widget.widget_calendar tfoot a {
 }
 
 .icon-block-outer:hover {
-  background: #44465D;
+  background: #123c63;
 }
 
 .icon-block-outer:hover h3 a,
@@ -395,7 +395,7 @@ body .widget.widget_calendar tfoot a {
 }
 
 .slide-inner .post-content .post-inner .post-format-outer > span {
-  background-color: #44465D;
+  background-color: #123c63;
   color: #fff;
   border: 2px solid #FFF;
 }
@@ -742,5 +742,8 @@ body .site-footer .footer-inner .footer-menu ul li:first-child a {
 .site-info {
   margin-bottom: 10px;
 }
+
+}
+.site-header .site-branding > a {
 
 }
