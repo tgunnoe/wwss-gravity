@@ -26,13 +26,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2 a, body.woocommerce.single-product .product_title a, h3 a, h4 a, h5 a, h6 a, .wrap-inner-banner .page-header .page-title, .sub-title, .widget .widget-title, .widget .widgettitle, .block-grid .post-content .post-content-inner .post-title h3 {
   font-family: 'Playfair Display', serif;
 }
-h1.site-title {
+h1.site-title a {
     font-family: serif;
     width: 480px;
     font-variant: small-caps;
     color: #3155a3;
 }
-p.site-description {
+.site-header.site-header-three .site-branding p.site-description {
     display: block;
 }
 
