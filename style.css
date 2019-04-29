@@ -43,7 +43,7 @@ h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2
     border-bottom: 1px solid #e6e6e6;
   }
 }
-@media screen and (min-width: 770px) {
+@media screen and (max-width: 991px) {
     .site-header.site-header-three .site-branding .site-title {
         width: 390px;
         font-size: 26px;
