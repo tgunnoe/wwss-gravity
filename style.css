@@ -26,6 +26,17 @@ Use it to make something cool, have fun, and share what you've learned with othe
 h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2 a, body.woocommerce.single-product .product_title a, h3 a, h4 a, h5 a, h6 a, .wrap-inner-banner .page-header .page-title, .sub-title, .widget .widget-title, .widget .widgettitle, .block-grid .post-content .post-content-inner .post-title h3 {
   font-family: 'Playfair Display', serif;
 }
+
+}
+.site-header .site-branding > a,
+body.fixed-nav-active .site-branding-outer .site-branding > a {
+    float: left;
+    max-width: 120px;
+}
+body.fixed-nav-active .site-branding-outer .site-branding .site-title,
+body.fixed-nav-active .site-branding-outer .site-branding .site-description {
+    display: none;
+}
 .site-header.site-header-three .site-branding .site-title,
 .site-header.site-header-three .site-branding .site-title a {
     font-family: serif;
@@ -783,10 +794,4 @@ body .site-footer .footer-inner .footer-menu ul li:first-child a {
 
 .site-info {
   margin-bottom: 10px;
-}
-
-}
-.site-header .site-branding > a {
-    float: left;
-    max-width: 120px;
 }
