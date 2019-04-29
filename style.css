@@ -57,14 +57,15 @@ h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2
         float: left;
     }
 }
+
+.site-header.site-header-three .site-branding p.site-description {
+    display: block;
+}
 @media screen and (max-width: 769px) {
     .site-header.site-header-three .site-branding .site-title,
     .site-header.site-header-three .site-branding p.site-description {
         display: none;
     }
-}
-.site-header.site-header-three .site-branding p.site-description {
-    display: block;
 }
 
 
