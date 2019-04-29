@@ -43,6 +43,19 @@ h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2
     border-bottom: 1px solid #e6e6e6;
   }
 }
+@media screen and (max-width: 991px) {
+    .site-header.site-header-three .site-branding h1.site-title {
+        width: 390px;
+        font-size: 26px;
+        padding-left: 20px;
+    }
+    ,site-header.site-header-three .site-branding h1.site-title a {
+        font-size: 26px;
+    }
+    .site-header.site-header-three .site-branding p.site-description {
+        float: left;
+    }
+}
 .site-header.site-header-three .site-branding p.site-description {
     display: block;
 }
