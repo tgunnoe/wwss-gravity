@@ -756,4 +756,5 @@ body .site-footer .footer-inner .footer-menu ul li:first-child a {
 }
 .site-header .site-branding > a {
     float: left;
+    max-width: 120px;
 }
