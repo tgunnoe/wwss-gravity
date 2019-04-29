@@ -28,7 +28,7 @@ h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2
 }
 
 }
-.site-header.site-header-three .site-branding > a,
+.site-branding-outer .site-branding > a,
 body.fixed-nav-active .site-branding-outer .site-branding > a {
     float: left;
     max-width: 120px;
